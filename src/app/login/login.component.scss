@@ -1,0 +1,40 @@
+.login-bg {
+  height: 100%;
+  background-image: url('/assets/login_bg1.jpg');
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.login-bg1 {
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 0%;
+  margin-right: 30px;
+  transform: translate(0, -50%);
+  color: black;
+  padding: 20px;
+}
+
+mat-form-field {
+  display: block
+}
+
+.example-card {
+  background-color: inherit;
+}
+
+.text-aligns {
+  color: white;
+  font-family: cursive;
+  font-size: 40px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.bg {
+  // background-image: url('/assets/login_bg1.jpg');
+  background-size: cover;
+  height: 100%;
+}

@@ -1,0 +1,36 @@
+<div class="login-bg">
+
+    <p class="text-aligns">Welcome to Abi Designer Studio</p>
+
+    <div class="login-bg1">
+
+        <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title>Login</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                    <mat-form-field>
+                        <mat-label>Username</mat-label>
+                        <input type="email" matInput formControlName="name" placeholder="Username">
+                    </mat-form-field>
+        
+                    <mat-form-field>
+                        <mat-label>Password</mat-label>
+                        <input type="password" matInput formControlName="password" placeholder="Password">
+                    </mat-form-field>
+                    <button mat-button type="submit" [disabled]="!loginForm.valid">Login</button>
+                    <button mat-button>Cancel</button>
+
+                </form>
+            </mat-card-content>
+            <mat-card-actions>
+            </mat-card-actions>
+          </mat-card>
+          
+
+       
+
+</div>
+
+</div>
